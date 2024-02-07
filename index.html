@@ -2,27 +2,30 @@
 <html lang="ko">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNMKCEDZX5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNMKCEDZX5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-ZNMKCEDZX5');
-</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>페이지</title>
+    gtag('config', 'G-ZNMKCEDZX5');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>페이지</title>
 </head>
 <body>
-<script>
-// 페이지가 로드될 때 다른 링크로 이동하는 함수
-window.onload = function() {
-// 이동할 링크 URL
-var redirectTo = "http://www.enactus-snu.org/";
-// 페이지 이동
-window.location.href = redirectTo;
-}
-</script>
+  <script>
+    // 페이지가 로드될 때 다른 링크로 이동하는 함수
+    window.onload = function() {
+      // 2초 후에 리디렉션 실행
+      setTimeout(function() {
+        // 이동할 링크 URL
+        var redirectTo = "http://www.enactus-snu.org/";
+        // 페이지 이동
+        window.location.href = redirectTo;
+      }, 2000); // 2000 밀리초 = 2초
+    }
+  </script>
 </body>
 </html>
