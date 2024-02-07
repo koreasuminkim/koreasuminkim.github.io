@@ -1,0 +1,65 @@
+* {
+    font-family: "Lato",sans-serif;
+}
+.blind {
+    display: none;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.center {
+    margin : 0 auto;
+    width : 1280px;
+}
+
+header span {
+    margin-right: 30px;
+    text-align: center;
+    color : #808080;
+    border-color : white;
+    transition: border-color 0.3s ease;
+    padding: 5px; 
+
+}
+#main-image {
+    display: inline-block;
+    width : 125px;
+    height: 72px;
+    background-image: url('./홈페이지-로고.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.header-center {
+    vertical-align: middle;
+}
+
+header span:hover {
+    border : 1px solid black;
+    border-radius: 10px;
+
+}
+
+main {
+    text-align: center;
+    
+}
+
+#application-form {
+    padding : 11px 20px 15px 20px;
+    border : 3px solid black;
+    text-decoration: none;
+    color :black;
+    transition: border-color 0.3s ease; 
+    display: inline-block;
+}
+
+#application-form:hover {
+    border-color: orange;
+}
+
+#welcome {
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
